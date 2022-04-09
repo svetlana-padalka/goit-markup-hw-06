@@ -472,6 +472,37 @@
             <use href="./images/sprite.svg#icon-close-icon"></use>
           </svg>
         </button>
+
+        <form class="contact-form">
+          <p class="contact-form-text">Оставьте свои данные, мы вам перезвоним</p>
+
+          <label class="contact-form-field"></label>
+            Имя
+            <input name="user-name" class="contact-form-input" type="text" required/>
+          </label>
+
+          <label class="contact-form-field"> 
+            Телефон
+            <input name="user-phone" class="contact-form-input" type="tel" required/>
+          </label>
+
+          <label class="contact-form-field"> 
+            Почта
+            <input name="user-mail" class="contact-form-input" type="email" required/>
+          </label>
+
+          <label class="contact-form-field"> 
+            Комментарий
+            <textarea name="user-message" class="contact-form-message" placeholder="Введите текст"></textarea>
+          </label>
+
+          <div class="contact-form-checkbox-wrapper">
+            <input name="accept-policy" type="checkbox" class="contact-form-checkbox" required/>
+            <label for="" class="contact-form-checkbox-label">
+            Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+            <button type="submit" class="contact-form-submit-btn">Отправить</button>
+          </div>
+        </form>
       </div>
     </div>
 
