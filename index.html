@@ -463,22 +463,26 @@
           </ul>
         </div>
 
-        <form class="subscribe-us">
+        <form class="subscribe-form">
           <p class="footer-title">подпишитесь на рассылку</p>
           <!-- <label class="contact-form-item"> -->
+          <span class="subscribe-form-wrapper">
             <input
               name="user-mail"
-              class="contact-form-input"
+              class="subscribe-form-input"
               type="email"
               lang="en"
               placeholder="E-mail"
               required
             />
-          </label>
-          <button type="submit" class="contact-form-submit-btn">Подписаться</button>
-          <svg class="" width="24" height="24">
-            <use href="./images/sprite.svg#icon-send"></use>
-          </svg>
+            <!-- </label> -->
+            <button type="submit" class="subscribe-form-submit-btn">
+              Подписаться
+              <svg class="subscribe-form-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </span>
         </form>
       </div>
     </footer>
